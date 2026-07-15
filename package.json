@@ -1,7 +1,8 @@
 {
   "name": "@flatcash/mcp-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for flat.cash — give your AI agent a treasury. Buy, hold, and transfer CPI-pegged FLAT with no wallet, no gas, no KYC.",
+  "mcpName": "io.github.flat-cash/flatcash",
   "type": "module",
   "bin": {
     "flatcash-mcp": "./dist/index.js"
@@ -32,7 +33,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AnonCastle/flatcash-mcp-server"
+    "url": "https://github.com/FlatDefi/flatcash-mcp-server"
   },
   "homepage": "https://flat.cash/agents",
   "dependencies": {
